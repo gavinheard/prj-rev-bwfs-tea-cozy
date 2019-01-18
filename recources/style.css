@@ -1,0 +1,72 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.logo {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png);
+  height:20px;
+  padding-left: 10px;
+
+}
+header{
+  height: 69px;
+  position: fixed;
+
+}
+ul{
+  text-decoration: underline;
+  text-align: right;
+}
+.banner {
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width:1200px;
+  text-align: center;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  text-align: center;
+}
+
+.picture {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Location {
+  height: 500px;
+  width: 1200px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.boxes {
+  height: 300px;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  opacity: 1;
+}
+
+.Location .content {
+  text-align: center;
+}
+
+.The-Tea-Cozy {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
